@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -12237,6 +12237,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 495287731}
+  - component: {fileID: 495287732}
   m_Layer: 0
   m_Name: Characters (1)
   m_TagString: Untagged
@@ -12272,6 +12273,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &495287732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495287730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a64a49d83944b8c4f88451f84e3f9538, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveUnitsPerSecond:
+    value: {x: 0, y: 0, z: 0}
+    space: 1
+  rotateDegreesPerSecond:
+    value: {x: 0, y: 0, z: 0}
+    space: 1
+  ignoreTimescale: 0
+  eachWait: 0
+  moveFor: 0
 --- !u!1001 &497829472
 Prefab:
   m_ObjectHideFlags: 0
@@ -43342,7 +43363,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013889184154, guid: b4c164beaca302942b408ee3a1dcf97f, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -15.056
+      value: -12.62
       objectReference: {fileID: 0}
     - target: {fileID: 4000013889184154, guid: b4c164beaca302942b408ee3a1dcf97f, type: 2}
       propertyPath: m_LocalRotation.x
