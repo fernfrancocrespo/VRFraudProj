@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AppearonClick : MonoBehaviour {
     // The inspector changable variables
-    public GameObject text;
+    public GameObject ObjectApeear;
     public float DestroyAfter;
 
     // Use this for initialization
@@ -16,7 +16,7 @@ public class AppearonClick : MonoBehaviour {
 
     public void Start()
     {
-        text.SetActive(false);
+        ObjectApeear.SetActive(false);
         
     }
 
@@ -26,18 +26,24 @@ public class AppearonClick : MonoBehaviour {
         timer = true;
     }
 
+    public void deactiveNow()
+    {
+        appearNow = false;
+        timer = false;
+    }
+
      void Update()
     {
       
         if (appearNow == true)
         {
-            text.SetActive(true);
+           ObjectApeear.SetActive(true);
         }
         if (DestroyAfter > 0 & timer == true)
             DestroyAfter = DestroyAfter - Time.deltaTime;
 
         if (DestroyAfter < 0 & timer == true)
-            text.SetActive(false);
+            ObjectApeear.SetActive(false);
       
     }
 	}
