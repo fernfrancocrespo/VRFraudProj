@@ -7,6 +7,9 @@ public class TextAppear : MonoBehaviour
 
     public float ActivateAfter;
     public GameObject text;
+    public float destroyAfter;
+    private bool active = true;
+
 
     // Use this for initialization
     private void Start()
@@ -24,10 +27,23 @@ public class TextAppear : MonoBehaviour
             text.SetActive(false);
             ActivateAfter -= Time.deltaTime;
         }
+
+        
         else if (ActivateAfter <= 0)
         {
 
             text.SetActive(true);
+            active = true;
+        }
+
+        if (active == true)
+        {
+            if (destroyAfter > 0)
+            { destroyAfter -= Time.deltaTime; }
+            else if (destroyAfter<=0)
+            {
+                text.SetActive(false);
+            }
         }
     }
 }

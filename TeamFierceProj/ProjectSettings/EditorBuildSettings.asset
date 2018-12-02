@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Scene 1 Introduction.unity
     guid: 95a61e42c2f023940830e3443c5136a6
   - enabled: 1
-    path: Assets/Scenes/Scene 3 Default Pos.unity
+    path: Assets/Scenes/Scene 3.1 Default Pos.unity
     guid: 84799d11efbde72429fbb299bea257a0
+  - enabled: 1
+    path: Assets/Scenes/Scene 3.2 Jul and all.unity
+    guid: 557139fced671e94991e7a3c736001fc
+  - enabled: 1
+    path: Assets/Scenes/Scene 4.unity
+    guid: b65470247d0acca45a0825f7137aedee
   m_configObjects: {}
