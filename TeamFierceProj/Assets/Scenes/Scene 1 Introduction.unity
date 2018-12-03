@@ -2716,6 +2716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelToLoad: Scene 2 Default Pos
   timer: 78
+  timerSecond: {fileID: 0}
 --- !u!114 &118436436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24238,6 +24239,69 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013668852974, guid: 68767acb6d74aa2409ac492eee06d221,
     type: 2}
   m_PrefabInternal: {fileID: 983340444}
+--- !u!1001 &984525894
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 224332461578014758, guid: 04ae202b2a072470190c2b88f43b001b,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 535.1902
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -37.240105
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -18.650988
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4414299500910774, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114464079561448392, guid: 04ae202b2a072470190c2b88f43b001b,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114294316593035626, guid: 04ae202b2a072470190c2b88f43b001b,
+        type: 2}
+      propertyPath: timer
+      value: 78
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &984525895 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114342514776098942, guid: 04ae202b2a072470190c2b88f43b001b,
+    type: 2}
+  m_PrefabInternal: {fileID: 984525894}
+  m_Script: {fileID: 11500000, guid: 875cbb938af824b0a82544163ab357e9, type: 3}
 --- !u!1001 &986963155
 Prefab:
   m_ObjectHideFlags: 0
@@ -49573,9 +49637,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1698977300}
-        m_MethodName: SceneLoad
-        m_Mode: 1
+      - m_Target: {fileID: 984525895}
+        m_MethodName: FadeToLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
