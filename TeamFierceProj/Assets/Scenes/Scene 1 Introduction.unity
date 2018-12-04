@@ -4298,7 +4298,7 @@ Transform:
   - {fileID: 862917484}
   - {fileID: 1069244037}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &169556705
 Prefab:
@@ -4672,6 +4672,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000014115179176, guid: f7cd582da3b283a4c8e6f3e947315aef,
     type: 2}
   m_PrefabInternal: {fileID: 177826930}
+--- !u!114 &178309359 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114342514776098942, guid: 04ae202b2a072470190c2b88f43b001b,
+    type: 2}
+  m_PrefabInternal: {fileID: 984525894}
+  m_Script: {fileID: 11500000, guid: 875cbb938af824b0a82544163ab357e9, type: 3}
 --- !u!1 &180352651
 GameObject:
   m_ObjectHideFlags: 0
@@ -6546,7 +6552,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 984525895}
+      - m_Target: {fileID: 178309359}
         m_MethodName: FadeToLevel
         m_Mode: 3
         m_Arguments:
@@ -25137,15 +25143,14 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224465621482224996, guid: 04ae202b2a072470190c2b88f43b001b,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04ae202b2a072470190c2b88f43b001b, type: 2}
   m_IsPrefabAsset: 0
---- !u!114 &984525895 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114342514776098942, guid: 04ae202b2a072470190c2b88f43b001b,
-    type: 2}
-  m_PrefabInternal: {fileID: 984525894}
-  m_Script: {fileID: 11500000, guid: 875cbb938af824b0a82544163ab357e9, type: 3}
 --- !u!1001 &986963155
 Prefab:
   m_ObjectHideFlags: 0
