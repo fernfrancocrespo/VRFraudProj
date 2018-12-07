@@ -28435,7 +28435,7 @@ Prefab:
     - target: {fileID: 114045796972257426, guid: 2904f365c711b7a46a8cdbfd4851f0d6,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 14
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 224436091740037816, guid: 2904f365c711b7a46a8cdbfd4851f0d6,
         type: 2}
