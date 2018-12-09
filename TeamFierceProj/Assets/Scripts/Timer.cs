@@ -6,8 +6,8 @@ using System.Collections.Generic;
 public class Timer : MonoBehaviour
 {
     //public string levelToLoad;
-    public float timer = 10f;
-    private Text timerSecond;
+    public float timer = 2f;
+    //private Text timerSecond;
     //public int currentScene;
     public int nextScene;
 
@@ -15,7 +15,7 @@ public class Timer : MonoBehaviour
     void Start()
     {
 
-        timerSecond = GetComponent<Text>();
+        //timerSecond = GetComponent<Text>();
 
     }
 
@@ -23,13 +23,15 @@ public class Timer : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        timerSecond.text = timer.ToString("f2");
+
+            //timerSecond.text = timer.ToString("f2");
         if (timer <= 0)
         {
             //Application.LoadLevel(levelToLoad);
             // FadeToLevel(0);
 
-            LevelChanger.Instance.FadeToLevel(nextScene);
+            ScreenFader.Instance.fadeIn = false;
+
 
             //switch (sceneNum)
             //{
@@ -50,7 +52,9 @@ public class Timer : MonoBehaviour
 
 
         }
-        
+        if(timer <= -1)
+            LevelChanger.Instance.FadeToLevel(nextScene);
+
     }
     
 }

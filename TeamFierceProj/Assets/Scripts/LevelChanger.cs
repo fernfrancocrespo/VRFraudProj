@@ -25,6 +25,7 @@ public class LevelChanger : singleton<LevelChanger>
     {
         levelToLoad = levelIndex;
         animator.SetTrigger("FadeOut");
+
     }
     public void OnFadeComplete ()
     {
