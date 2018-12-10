@@ -20400,7 +20400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 870178968}
   clip: {fileID: 8300000, guid: 0d567b072ce3c2e42ad6324ded526092, type: 3}
-  startAfter: 4
+  startAfter: 6
 --- !u!1001 &888389041
 Prefab:
   m_ObjectHideFlags: 0
