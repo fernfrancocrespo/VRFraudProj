@@ -24256,7 +24256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdaa834dfefc1704bb56b913e9123df9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timer: 4
+  timer: 22
   nextScene: 32
 --- !u!1001 &1019637640
 Prefab:
