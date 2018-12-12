@@ -47,6 +47,8 @@ public class SubtitleChange : MonoBehaviour {
 
             case 19:                 if (timer1 >= 2.5)                 {                     m_MyText.text = "Gerard...";                 }                 break;
 
+            case 21:                 if (timer1 >= 7.0)                 {                     m_MyText.text = "Owen...";                 }                 break;
+
             case 23:                 if (timer1 >= 8.5)                 {                     m_MyText.text = "Dani...";                 }                 break;
 
             case 24:                 if (timer1 >= 5.0)                 {                     m_MyText.text = "Lowel...";                 }                 break; 
