@@ -5,7 +5,7 @@ using UnityEngine;
 public class SubtitleChange : MonoBehaviour {
 
     //public TextMeshProUGUI m_MyText;
-    public TextMeshPro m_MyText;     public string initialSubtitle;
+    public TextMeshPro m_MyText;     public string initialSubtitle;     //public Animator scene4Animator;
     private float timer = 42f;     private float timer1 = 0f;     public int sceneNum;
     void Start()     {
         //Text sets your text to say this message
@@ -30,7 +30,7 @@ public class SubtitleChange : MonoBehaviour {
                     m_MyText.text = "Jeremy...";
                 }                  break;
 
-            case 4:                  if (timer1 >= 4.0 && timer1 <= 19.0)                 {                     m_MyText.text = "Ian...";                 }                 else if (timer1 >= 19.0 && timer1 <= 28.0)                 {                     m_MyText.text = "Julia...";                 }                 else if (timer1 >= 28.0 && timer1 <= 33.0)                 {                     m_MyText.text = "Ian...";                 }                 else if (timer1 >= 33.3)                 {                     m_MyText.text = "Julia...";                 }                 break;
+            case 4:                  if (timer1 >= 4.0 && timer1 <= 19.0)                 {                     m_MyText.text = "Ian...";                 }                 else if (timer1 >= 19.0 && timer1 <= 28.0)                 {                     m_MyText.text = "Julia...";                   }                 else if (timer1 >= 28.0 && timer1 <= 33.0)                 {                     m_MyText.text = "Ian...";                  }                 else if (timer1 >= 33.3)                 {                     m_MyText.text = "Julia...";                 }                 break;
 
             case 5:                  if (timer1 >= 10.5)                 {                     m_MyText.text = "Julia...";                 }                  break;
 

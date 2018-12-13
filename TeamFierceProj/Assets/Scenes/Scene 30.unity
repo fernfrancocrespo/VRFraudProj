@@ -13738,7 +13738,17 @@ Prefab:
         type: 2}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: e2cf68ff4b1ffda45a77f7307dd789b9, type: 2}
+      objectReference: {fileID: 9100000, guid: 58cebe7906bd84855b3172998d14e710, type: 2}
+    - target: {fileID: 95571631134477316, guid: 1ff390513861b4247aa74c04d773688d,
+        type: 2}
+      propertyPath: m_WarningMessage
+      value: "\nBinding warning: Some generic clip(s) animate transforms that are
+        already bound by a Humanoid avatar. These transforms can only be changed by
+        Humanoid clips.\n\tTransform 'Hips'\n\tTransform 'LeftHand'\n\tTransform 'RightArm'\n\tTransform
+        'RightForeArm'\n\tTransform 'LeftForeArm'\n\tTransform 'LeftShoulder'\n\tTransform
+        'Spine'\n\tTransform 'RightUpLeg'\n\tTransform 'Hips'\n\tTransform 'LeftUpLeg'\n\tand
+        more ...\n\tFrom animation clip 'mixamo.com'"
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ff390513861b4247aa74c04d773688d, type: 2}
   m_IsPrefabAsset: 0
@@ -21317,6 +21327,23 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000012679207012, guid: d4351486bdd6c12478405ec85872ebee,
     type: 2}
   m_PrefabInternal: {fileID: 972710074}
+--- !u!1 &975060357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1190964575207540, guid: 1ff390513861b4247aa74c04d773688d,
+    type: 2}
+  m_PrefabInternal: {fileID: 585726193}
+--- !u!114 &975060358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 975060357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 404498f6f9c6c41d48072b74e45af8c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 21
 --- !u!1001 &975691938
 Prefab:
   m_ObjectHideFlags: 0
