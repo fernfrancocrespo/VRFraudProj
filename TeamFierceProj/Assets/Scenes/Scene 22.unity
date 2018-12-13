@@ -8932,6 +8932,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000013668852974, guid: 68767acb6d74aa2409ac492eee06d221,
     type: 2}
   m_PrefabInternal: {fileID: 362840658}
+--- !u!1 &369511071 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1182085121850494, guid: b3857bfa7818ece43bf067a6a463733b,
+    type: 2}
+  m_PrefabInternal: {fileID: 1754765078}
+--- !u!114 &369511076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 369511071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80858efb2e5a7f64fb40de679e137e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivateAfter: 10000
+  message: {fileID: 369511071}
+  text: {fileID: 0}
 --- !u!1001 &369670342
 Prefab:
   m_ObjectHideFlags: 0
@@ -11175,6 +11194,11 @@ Prefab:
         type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114392841164745534, guid: 7544f6efe70907849adc5a2141cd0d9a,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7544f6efe70907849adc5a2141cd0d9a, type: 2}
@@ -20594,6 +20618,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000012229297654, guid: 456e74a62eeac4945b87ba53171fc161,
     type: 2}
   m_PrefabInternal: {fileID: 904390805}
+--- !u!1 &906629358 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1331427508374098, guid: afc313f039015ca42978bd37786b6b8a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1972459872}
+--- !u!114 &906629363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 906629358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80858efb2e5a7f64fb40de679e137e44, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ActivateAfter: 10000
+  message: {fileID: 906629358}
+  text: {fileID: 0}
 --- !u!1001 &909975031
 Prefab:
   m_ObjectHideFlags: 0
