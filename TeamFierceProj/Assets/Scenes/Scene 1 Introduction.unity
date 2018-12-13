@@ -1595,7 +1595,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 2
+  m_Text: Nice to Meet You
 --- !u!222 &67572041
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3510,7 +3510,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You G
+  m_Text: Nice to Meet You
 --- !u!222 &135901470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4917,7 +4917,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 13
+  m_Text: Nice to Meet You
 --- !u!222 &180352654
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7027,7 +7027,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You10
+  m_Text: Nice to Meet You
 --- !u!222 &244617260
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10714,7 +10714,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You7
+  m_Text: Nice to Meet You
 --- !u!222 &418767054
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18700,7 +18700,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You6
+  m_Text: Nice to Meet You
 --- !u!222 &744128650
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -25655,7 +25655,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Nice to Meet You5 '
+  m_Text: Nice to Meet You
 --- !u!222 &990407317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -30163,7 +30163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You9
+  m_Text: Nice to Meet You
 --- !u!222 &1138299942
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -37892,7 +37892,7 @@ Prefab:
     - target: {fileID: 114000011863446796, guid: bfb9efad0c77a4e19a6f1e9c0e99da0b,
         type: 2}
       propertyPath: RotationDuration
-      value: 0.5
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfb9efad0c77a4e19a6f1e9c0e99da0b, type: 2}
@@ -39677,7 +39677,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You8
+  m_Text: Nice to Meet You
 --- !u!222 &1504852945
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -41401,7 +41401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 12
+  m_Text: Nice to Meet You
 --- !u!222 &1561160567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -43093,7 +43093,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 11
+  m_Text: Nice to Meet You
 --- !u!222 &1616471311
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -43467,7 +43467,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 1
+  m_Text: Nice to Meet You
 --- !u!222 &1636817953
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -45475,7 +45475,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 3
+  m_Text: Nice to Meet You
 --- !u!222 &1732349981
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -49759,7 +49759,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 4
+  m_Text: Nice to Meet You
 --- !u!222 &1880331274
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54648,7 +54648,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Nice to Meet You 14
+  m_Text: Nice to Meet You
 --- !u!222 &2052032745
 CanvasRenderer:
   m_ObjectHideFlags: 0
